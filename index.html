@@ -11,31 +11,59 @@
 
 <body>
   <div class="grid-wrapper">
-
+    <div id="top-banner">
+      <div>
+        <img id="sop-logo" src="favicon.ico" alt="sop logo">
+        <h1>Welcome to the Potatoe Library!</h1>
+      </div>
+    </div>
 
     <form id="book-input">
       <fieldset>
         <legend>Book Form</legend>
-        <label for="title">Book Title
+        <label for="title">Book Title:
           <input type="text" name="title" placeholder="Enter Book Title here">
         </label>
-        <label for="authors-name">Authors name
+        <label for="authors-name">Authors name:
           <input type="text" name="authors-name" placeholder="Enter Authors Name here">
         </label>
-        <label for="pages">Total pages
+        <label for="pages">Total pages:
           <input type="number" name="pages" placeholder="total pages in numbers only">
         </label>
-        <label for="has-read">Have you read this book?
+        <label for="has-read">Have you read this book?:
           <span>
             Yes<input class="radio-input" type="radio" name="hasRead" value="yes">
-            No<input class="radio-input" type="radio" name="hasRead" value="no">
+            No<input class="radio-input" type="radio" name="hasRead" value="no" checked>
           </span>
         </label>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <div class="book-form-button-box">
+          <button class="book-form-btn" type="submit">Submit</button>
+          <button class="book-form-btn" type="reset">Reset</button>
+        </div>
       </fieldset>
+      <div id="logger">
+        <p></p>
+      </div>
     </form>
+    <div id="book-output">
+
+    </div>
     <div class="book-content">
+      <div class="book-sorter">
+        <div class="book-content-card">
+          <div>
+
+            <h2 id="book-title">Title</h2>
+            <h3 id="book-author">Author</h3>
+            <h4 id="book-pages">Total pages: 10</h4>
+            <p id="book-read">Current read status is (not read yet)</p>
+            <div>
+              <h2>No Books Saved Please add books!</h2>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
     </div>
   </div>
