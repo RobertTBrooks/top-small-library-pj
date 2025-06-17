@@ -1,4 +1,6 @@
 📚 Library App
+live display 
+https://roberttbrooks.github.io/top-small-library-pj/
 
 A simple, interactive web application for managing a digital library of books. Users can add, display, update, and remove books — all handled dynamically in the browser using JavaScript.
 
