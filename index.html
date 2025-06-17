@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+  <div class="grid-wrapper">
+
+
+    <form id="book-input">
+      <fieldset>
+        <legend>Book Form</legend>
+        <label for="title">Book Title
+          <input type="text" name="title" placeholder="Enter Book Title here">
+        </label>
+        <label for="authors-name">Authors name
+          <input type="text" name="authors-name" placeholder="Enter Authors Name here">
+        </label>
+        <label for="pages">Total pages
+          <input type="number" name="pages" placeholder="total pages in numbers only">
+        </label>
+        <label for="has-read">Have you read this book?
+          <span>
+            Yes<input class="radio-input" type="radio" name="hasRead" value="yes">
+            No<input class="radio-input" type="radio" name="hasRead" value="no">
+          </span>
+        </label>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+    <div class="book-content">
+
+    </div>
+  </div>
+
+</body>
+
+</html>
